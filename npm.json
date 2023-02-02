@@ -1,12 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
 
-  "lockFileMaintenance": {
-    "extends": ["group:all"],
-    "enabled": true,
-    "automerge": true
-  },
-
   "npm": {
     "extends": [
       ":noUnscheduledUpdates",
