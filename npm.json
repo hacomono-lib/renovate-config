@@ -35,6 +35,10 @@
         "matchPackagePrefixes": ["@vue"]
       },
       {
+        "groupName": "vueuse",
+        "matchPackagePrefixes": ["@vueuse"]
+      },
+      {
         "groupName": "markuplint",
         "matchPackageNames": ["markuplint"],
         "matchPackagePrefixes": ["@markuplint"]
