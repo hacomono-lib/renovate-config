@@ -9,8 +9,8 @@ renovate.json に以下を記載します
 ```json
 {
     "extends": [
-        "@hacomono:base",
-        "@hacomono:npm"
+        "github>hacomono-lib/renovate-config:base",
+        "github>hacomono-lib/renovate-config:npm"
     ]
 }
 ```
@@ -27,7 +27,7 @@ hacomono では、以下のルールに則って定義しています
 - github-actions などの CI/CD 向けのパッケージは、全て自動的にマージする
 - マージされなかった PR は、repository ごとの担当者に自動的にアサインされる
 
-### `"@hacomono:npm"`
+### `":npm"`
 
 node package modules の更新ルールを定義しています.
 
@@ -38,14 +38,18 @@ node package modules の更新ルールを定義しています.
    - すべての pull request をレビュアー必須にする
 2. 以下を GitHub Apps に追加
    - `renovate approve` をレビュー必要人数分
+   
+### '":npm-lockfile"'
 
-### `"@hacomono:github-actions"`
+package-lock.json や yarn.lock の更新ルールを定義しています
+
+### `":github-actions"`
 
 GitHub Actions で使用するモジュールのバージョンを更新します.
 
 Ci/Cd が通ればどのバージョンでも自動的にマージされます
 
-### `"@hacomono:pre-commit"`
+### `":pre-commit"`
 
 `.pre-commit.config.yml` で指定する pre-commit の hooks のバージョンを更新します
 

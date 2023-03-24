@@ -39,6 +39,11 @@
         "matchPackagePrefixes": ["@vueuse"]
       },
       {
+        "groupName": "nuxt frameworks",
+        "matchPackageNames": ["nuxt"],
+        "matchPackagePrefixes": ["@nuxt"]
+      },
+      {
         "groupName": "markuplint",
         "matchPackageNames": ["markuplint"],
         "matchPackagePrefixes": ["@markuplint"]
