@@ -1,4 +1,4 @@
-# @hacomono/renovate-config
+# renovate-config
 
 hacomono 製品で利用している renovate オプションを使いやすくカスタマイズしたもの
 
