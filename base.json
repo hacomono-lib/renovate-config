@@ -8,7 +8,7 @@
     ":label(renovate)",
     ":semanticCommitScopeDisabled"
   ],
-  "schedule": ["after 10am every weekday", "before 5pm every weekday"],
+  "schedule": ["after 10am on monday", "before 5pm on monday"],
   "prHourlyLimit": 0,
   "prConcurrentLimit": 0,
   "platformAutomerge": true
