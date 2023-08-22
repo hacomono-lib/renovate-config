@@ -3,6 +3,7 @@
 
   "pre-commit": {
     "enabled": true,
-    "automerge": true
+    "automerge": true,
+    "labels": ["renovate:pre-commit"]
   }
 }

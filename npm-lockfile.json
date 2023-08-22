@@ -4,6 +4,7 @@
   "lockFileMaintenance": {
     "extends": ["group:all"],
     "enabled": true,
-    "automerge": true
+    "automerge": true,
+    "labels": ["renovate:npm", "renovate:lockFile"]
   }
 }

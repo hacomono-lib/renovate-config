@@ -3,6 +3,7 @@
 
   "github-actions": {
     "enabled": true,
-    "automerge": true
+    "automerge": true,
+    "labels": ["renovate:github-actions"]
   }
 }
