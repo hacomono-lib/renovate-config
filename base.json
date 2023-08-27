@@ -11,5 +11,6 @@
   "schedule": ["after 10am on monday", "before 5pm on monday"],
   "prHourlyLimit": 0,
   "prConcurrentLimit": 0,
-  "platformAutomerge": true
+  "platformAutomerge": true,
+  "labels": ["renovate"]
 }
