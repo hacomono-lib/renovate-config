@@ -17,38 +17,38 @@
       "enabled": true,
       "automerge": true
     },
-    "labels": ["renovate:npm"],
+    "labels": ["renovate", "renovate:npm"],
 
     "packageRules": [
       {
         "groupName": "eslint and prettier",
         "matchPackageNames": ["eslint", "prettier"],
         "matchPackagePrefixes": ["eslint-", "@eslint", "prettier-"],
-        "labels": ["renovate:lint", "renovate:eslint", "renovate:prettier"]
+        "labels": ["renovate", "renovate:npm", "renovate:lint", "renovate:eslint", "renovate:prettier"]
       },
       {
         "groupName": "storybook",
         "matchPackageNames": ["storybook", "chromatic"],
         "matchPackagePrefixes": ["@storybook"],
-        "labels": ["renovate:storybook"]
+        "labels": ["renovate", "renovate:npm", "renovate:storybook"]
       },
       {
         "groupName": "vue frameworks",
         "matchPackageNames": ["vue", "volar", "vue-tsc"],
         "matchPackagePrefixes": ["@vue"],
-        "labels": ["renovate:vue"]
+        "labels": ["renovate", "renovate:npm", "renovate:vue"]
       },
       {
         "groupName": "nuxt frameworks",
         "matchPackageNames": ["nuxt"],
         "matchPackagePrefixes": ["@nuxt", "@vueuse"],
-        "labels": ["renovate:nuxt"]
+        "labels": ["renovate", "renovate:npm", "renovate:nuxt"]
       },
       {
         "groupName": "markuplint",
         "matchPackageNames": ["markuplint"],
         "matchPackagePrefixes": ["@markuplint"],
-        "labels": ["renovate:lint", "renovate:markuplint"]
+        "labels": ["renovate", "renovate:npm", "renovate:lint", "renovate:markuplint"]
       }
     ]
   }
