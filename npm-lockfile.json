@@ -5,6 +5,6 @@
     "extends": ["group:all"],
     "enabled": true,
     "automerge": true,
-    "labels": ["renovate:npm", "renovate:lockFile"]
+    "labels": ["renovate", "renovate:npm", "renovate:lockFile"]
   }
 }
