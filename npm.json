@@ -23,8 +23,20 @@
       {
         "groupName": "eslint and prettier",
         "matchPackageNames": ["eslint", "prettier"],
-        "matchPackagePrefixes": ["eslint-", "@eslint", "prettier-"],
-        "labels": ["renovate", "renovate:npm", "renovate:lint", "renovate:eslint", "renovate:prettier"]
+        "matchPackagePrefixes": [
+          "eslint-",
+          "@eslint",
+          "prettier-",
+          "@vue/eslint-",
+          "@typescript-eslint/"
+        ],
+        "labels": [
+          "renovate",
+          "renovate:npm",
+          "renovate:lint",
+          "renovate:eslint",
+          "renovate:prettier"
+        ]
       },
       {
         "groupName": "storybook",
@@ -48,7 +60,45 @@
         "groupName": "markuplint",
         "matchPackageNames": ["markuplint"],
         "matchPackagePrefixes": ["@markuplint"],
-        "labels": ["renovate", "renovate:npm", "renovate:lint", "renovate:markuplint"]
+        "labels": [
+          "renovate",
+          "renovate:npm",
+          "renovate:lint",
+          "renovate:markuplint"
+        ]
+      },
+      {
+        "groupName": "storybook",
+        "matchPackageNames": ["storybook", "chromatic"],
+        "matchPackagePrefixes": ["@storybook", "storybook-addons-"],
+        "labels": ["renovate", "renovate:npm", "renovate:storybook"]
+      },
+      {
+        "groupName": "jest",
+        "matchPackagePrefixes": ["jest", "jest-environment-"],
+        "labels": ["renovate", "renovate:npm", "renovate:test", "renovate:jest"]
+      },
+      {
+        "groupName": "vitest",
+        "matchPackagePrefixes": ["vitest"],
+        "labels": ["renovate", "renovate:npm", "renovate:test", "renovate:vitest"]
+      },
+      {
+        "groupName": "playwright",
+        "matchPackageNames": ["playwright"],
+        "matchPackagePrefixes": ["@playwright"],
+        "labels": ["renovate", "renovate:npm", "renovate:test", "renovate:playwright"]
+      },
+      {
+        "groupName": "capacitor",
+        "matchPackagePrefixes": ["@capacitor"],
+        "labels": ["renovate", "renovate:npm", "renovate:capacitor"]
+      },
+      {
+        "groupName": "tailwind",
+        "matchPackageNames": ["tailwind"],
+        "matchPackagePrefixes": ["@tailwind"],
+        "labels": ["renovate", "renovate:npm", "renovate:tailwind"]
       }
     ]
   }
