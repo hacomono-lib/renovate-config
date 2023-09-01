@@ -45,6 +45,12 @@
         "labels": ["renovate", "renovate:npm", "renovate:storybook"]
       },
       {
+        "groupName": "react frameworks",
+        "matchPackageNames": ["react", "react-dom", "@types/react"],
+        "matchPackagePrefixes": ["@react"],
+        "labels": ["renovate", "renovate:npm", "renovate:react"]
+      },
+      {
         "groupName": "vue frameworks",
         "matchPackageNames": ["vue", "volar", "vue-tsc"],
         "matchPackagePrefixes": ["@vue"],
