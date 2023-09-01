@@ -25,7 +25,7 @@
         "matchPackageNames": ["eslint", "prettier"],
         "matchPackagePrefixes": [
           "eslint-",
-          "@eslint",
+          "@eslint/",
           "prettier-",
           "@vue/eslint-",
           "@typescript-eslint/"
@@ -41,31 +41,31 @@
       {
         "groupName": "storybook",
         "matchPackageNames": ["storybook", "chromatic"],
-        "matchPackagePrefixes": ["@storybook"],
+        "matchPackagePrefixes": ["@storybook/", "storybook-addon-"],
         "labels": ["renovate", "renovate:npm", "renovate:storybook"]
       },
       {
         "groupName": "react frameworks",
         "matchPackageNames": ["react", "react-dom", "@types/react"],
-        "matchPackagePrefixes": ["@react"],
+        "matchPackagePrefixes": ["@react/"],
         "labels": ["renovate", "renovate:npm", "renovate:react"]
       },
       {
         "groupName": "vue frameworks",
         "matchPackageNames": ["vue", "volar", "vue-tsc"],
-        "matchPackagePrefixes": ["@vue"],
+        "matchPackagePrefixes": ["@vue/"],
         "labels": ["renovate", "renovate:npm", "renovate:vue"]
       },
       {
         "groupName": "nuxt frameworks",
         "matchPackageNames": ["nuxt"],
-        "matchPackagePrefixes": ["@nuxt", "@vueuse"],
+        "matchPackagePrefixes": ["@nuxt/", "@nuxtjs/", "@vueuse/"],
         "labels": ["renovate", "renovate:npm", "renovate:nuxt"]
       },
       {
         "groupName": "markuplint",
         "matchPackageNames": ["markuplint"],
-        "matchPackagePrefixes": ["@markuplint"],
+        "matchPackagePrefixes": ["@markuplint/"],
         "labels": [
           "renovate",
           "renovate:npm",
@@ -74,30 +74,26 @@
         ]
       },
       {
-        "groupName": "storybook",
-        "matchPackageNames": ["storybook", "chromatic"],
-        "matchPackagePrefixes": ["@storybook", "storybook-addons-"],
-        "labels": ["renovate", "renovate:npm", "renovate:storybook"]
-      },
-      {
         "groupName": "jest",
-        "matchPackagePrefixes": ["jest", "jest-environment-"],
+        "matchPackageNames": ["jest", "@types/jest"],
+        "matchPackagePrefixes": ["jest-environment-"],
         "labels": ["renovate", "renovate:npm", "renovate:test", "renovate:jest"]
       },
       {
         "groupName": "vitest",
-        "matchPackagePrefixes": ["vitest"],
+        "matchPackageNames": ["vitest"],
+        "matchPackagePrefixes": ["vitest-environment"],
         "labels": ["renovate", "renovate:npm", "renovate:test", "renovate:vitest"]
       },
       {
         "groupName": "playwright",
         "matchPackageNames": ["playwright"],
-        "matchPackagePrefixes": ["@playwright"],
+        "matchPackagePrefixes": ["@playwright/"],
         "labels": ["renovate", "renovate:npm", "renovate:test", "renovate:playwright"]
       },
       {
         "groupName": "capacitor",
-        "matchPackagePrefixes": ["@capacitor"],
+        "matchPackagePrefixes": ["@capacitor/"],
         "labels": ["renovate", "renovate:npm", "renovate:capacitor"]
       },
       {
