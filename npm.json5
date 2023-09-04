@@ -60,7 +60,15 @@
         "groupName": "nuxt frameworks",
         "matchPackageNames": ["nuxt"],
         "matchPackagePrefixes": ["@nuxt/", "@nuxtjs/", "@vueuse/"],
+        "excludePackageNames": ["@nuxt/devtools"],
         "labels": ["renovate", "renovate:npm", "renovate:nuxt"]
+      },
+      {
+        // nuxt devtools is excluded from nuxt frameworks because patch version up causes minor version up of nuxt.
+        "groupName": "nuxt devtools",
+        "matchPackageNames": ["@nuxt/devtools"],
+        "automerge": false,
+        "labels": ["renovate", "renovate:npm", "renovate:nuxt-devtools"]
       },
       {
         "groupName": "markuplint",
