@@ -64,8 +64,8 @@
         "labels": ["renovate", "renovate:npm", "renovate:nuxt"]
       },
       {
-        // nuxt devtools is excluded from nuxt frameworks because patch version up causes minor version up of nuxt.
         "groupName": "nuxt devtools",
+        "description": "nuxt devtools is excluded from nuxt frameworks because patch version up causes minor version up of nuxt.",
         "matchPackageNames": ["@nuxt/devtools"],
         "automerge": false,
         "labels": ["renovate", "renovate:npm", "renovate:nuxt-devtools"]
