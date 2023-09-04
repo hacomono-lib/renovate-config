@@ -3,3 +3,4 @@ repos:
     rev: 36.78.8
     hooks:
       - id: renovate-config-validator
+        files: '(?:\.json5?)$'
