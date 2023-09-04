@@ -17,7 +17,7 @@ renovate.json に以下を記載します
 
 ## extends で指定できる文字列と効果
 
-### `"@hacomono:base"`
+### `":base"`
 
 renovate の共通設定を定義しています.
 
@@ -39,7 +39,7 @@ node package modules の更新ルールを定義しています.
 2. 以下を GitHub Apps に追加
    - `renovate approve` をレビュー必要人数分
    
-### '":npm-lockfile"'
+### `":npm-lockfile"`
 
 package-lock.json や yarn.lock の更新ルールを定義しています
 
