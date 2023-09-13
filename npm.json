@@ -109,6 +109,13 @@
         "matchPackageNames": ["tailwind"],
         "matchPackagePrefixes": ["@tailwind"],
         "labels": ["renovate", "renovate:npm", "renovate:tailwind"]
+      },
+      {
+        "groupName": "capacitor",
+        "matchPackageNames": ["capacitor"],
+        "matchPackagePrefixes": ["@capacitor"],
+        "labels": ["renovate", "renovate:npm", "renovate:capacitor"],
+        "automerge": false
       }
     ]
   }
