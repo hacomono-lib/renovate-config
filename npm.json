@@ -21,12 +21,11 @@
 
     "packageRules": [
       {
-        "groupName": "eslint and prettier",
-        "matchPackageNames": ["eslint", "prettier"],
+        "groupName": "eslint",
+        "matchPackageNames": ["eslint"],
         "matchPackagePrefixes": [
           "eslint-",
           "@eslint/",
-          "prettier-",
           "@vue/eslint-",
           "@typescript-eslint/"
         ],
@@ -34,8 +33,32 @@
           "renovate",
           "renovate:npm",
           "renovate:lint",
-          "renovate:eslint",
+          "renovate:eslint"
+        ]
+      },
+      {
+        "groupName": "prettier",
+        "matchPackageNames": ["prettier"],
+        "matchPackagePrefixes": [
+          "prettier-"
+        ],
+        "labels": [
+          "renovate",
+          "renovate:npm",
+          "renovate:lint",
           "renovate:prettier"
+        ]
+      },
+      {
+        "groupName": "biome",
+        "matchPackagePrefixes": [
+          "@biomejs/"
+        ],
+        "labels": [
+          "renovate",
+          "renovate:npm",
+          "renovate:lint",
+          "renovate:biome"
         ]
       },
       {
@@ -98,11 +121,6 @@
         "matchPackageNames": ["playwright"],
         "matchPackagePrefixes": ["@playwright/"],
         "labels": ["renovate", "renovate:npm", "renovate:test", "renovate:playwright"]
-      },
-      {
-        "groupName": "capacitor",
-        "matchPackagePrefixes": ["@capacitor/"],
-        "labels": ["renovate", "renovate:npm", "renovate:capacitor"]
       },
       {
         "groupName": "tailwind",
